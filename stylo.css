@@ -1,0 +1,62 @@
+
+*{
+    box-sizing:border border-box ;
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+}
+.bio:hover{
+    background-color: grey;
+}
+.educ:hover{
+    background-color: grey;
+}
+.hobbies:hover{
+    background-color: grey;
+}
+.pic:hover{
+    background-color: grey;
+}
+.about:hover{
+    background-color: grey;
+}
+div{
+    width: 35%;
+    height: 30vh;
+    text-align: center;
+    
+    display: inline-block;
+}
+.bio{
+    background-color: blue;
+}
+.pic{
+    background-color: red;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+.educ{
+    background-color: brown;
+    position: relative;
+    margin-left: 35%;
+    width: 30%;
+}
+.hobbies{
+    background-color: purple;
+    position: absolute;
+    left: 0%;
+    top: 100%;
+}
+.about{
+    background-color: green;
+    position: absolute;   
+    right: 0%;
+    top: 100%;
+}
+a{
+    font-size: 20pt;
+    color: black;
+}
